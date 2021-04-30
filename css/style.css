@@ -1,0 +1,60 @@
+﻿body {
+    background-color: mistyrose;
+    font-family:'Comic Sans MS';
+}
+
+* {
+    font-size: 15px;
+}
+
+
+h1, dl, p {
+    color: firebrick;
+}
+
+
+ul {
+    padding: 30px;
+    color:salmon;
+    list-style-type: none;
+}
+
+.ul-menu{
+    margin: 0 auto 0 auto;
+    width: 250px;
+    padding: 14px;
+    background-color: salmon;
+    text-align: center;
+    overflow: hidden;
+}
+
+.li-menu{
+    float: left;
+    padding: 5px;
+}
+
+
+#titolo{
+    color:brown;
+    font-size: 30px;
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+}
+
+a:link{
+    color: ghostwhite;
+}
+
+a:hover{
+    color: black;
+    font-size: large;
+}
+
+a:visited{
+    color: brown;
+}
+
+#piePagina, p{
+    text-align: center;
+}
+

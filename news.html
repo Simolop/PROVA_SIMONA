@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+    <link href="css/styleNews.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1 id="titolo">Newsletter</h1>
+
+        </nav>
+    </header>
+
+    <form onsubmit="IscrizioneCompletata()">
+        <fieldset>
+            <h2>Iscriviti alla Newsletter: </h2>
+           
+            <label>Nome: </label>
+            <input type="text" id="utente" onchange="Change()" />
+            <button onclick="Subscribe()" disabled>Subscribe</button>
+            <button onclick="Unsubscribe()" disabled>Unsubscribe</button>
+ 
+        </fieldset>
+    </form>
+
+
+    <br />
+    <br />
+
+    <footer id="piePagina">
+        <form action="home.html">
+            <button type="submit" value="Home"> Home </button>
+        </form>
+        <p>
+            Simona Loperfido |Scrivimi Ancora | Copyright &copy; Icubed
+        </p>
+    </footer>
+</body>
+</html>

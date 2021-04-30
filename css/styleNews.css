@@ -1,0 +1,44 @@
+﻿body {
+    background-color: lightyellow;
+    font-family:'Comic Sans MS';
+}
+
+* {
+    font-size: 15px;
+}
+
+p {
+    color: brown;
+    font-family: 'Yu Gothic';
+}
+
+h2 {
+
+    color:brown;
+    font-family:'Comic Sans MS';
+}
+
+label {
+
+    color: brown;
+    font-family: 'Comic Sans MS';
+}
+
+button {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#titolo{
+    color:orange;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    font-size: 40px;
+}
+
+#piePagina{
+    text-align: center;
+    color:brown;
+}
